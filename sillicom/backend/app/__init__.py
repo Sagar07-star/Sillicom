@@ -1,0 +1,1 @@
+"""Sillicom package."""

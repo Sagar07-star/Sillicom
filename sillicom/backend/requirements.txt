@@ -1,0 +1,16 @@
+fastapi==0.115.12
+uvicorn[standard]==0.34.2
+SQLAlchemy==2.0.40
+feedparser==6.0.11
+httpx[socks]==0.28.1
+APScheduler==3.11.0
+rapidfuzz==3.13.0
+pydantic==2.11.4
+PyYAML==6.0.2
+icalendar==6.3.1
+python-dateutil==2.9.0.post0
+tzdata==2025.2
+python-dotenv==1.1.0
+portalocker==3.1.1
+pytest==8.3.5
+psycopg[binary]==3.2.9

@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: sillicom-api
+    runtime: docker
+    plan: free
+    rootDir: sillicom/backend
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: BOT_CONTACT
+        sync: false
+      - key: CORS_ORIGINS
+        value: "*"
+      - key: INGEST_ENABLED
+        value: "true"
